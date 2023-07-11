@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+}
+.container{
+    width: 100%;
+    background: white;
+    color: black;
+    display: flex;
+    flex-wrap: wrap;
+}
+.con{
+    width: 400px;
+    height: 400px;
+    background: aquamarine;
+    position: absolute;
+}

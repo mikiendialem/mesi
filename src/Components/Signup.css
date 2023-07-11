@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+}
+.signup{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 300px;
+    gap: 40px;
+}
+.form form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.form input{
+    width: 300px;
+    height: 40px;
+    border: hidden;
+    background: lightgray;
+    border-radius: 5px;
+}
+.form .btn{
+    width: 100px;
+    height: 40px;
+    background: cyan;
+    margin: auto;
+}
