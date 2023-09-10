@@ -1,16 +1,27 @@
 *{
     margin: 0;
 }
-.container{
-    width: 100%;
-    background: white;
-    color: black;
+.dis{
     display: flex;
+    gap: 40px;
     flex-wrap: wrap;
 }
-.con{
+.dis .sec{
+    width: 300px;
+    height: 300px;
+    background-color: aquamarine;
+    border: hidden;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-bottom: 100px;
+    transition: 2s ease-in-out;
+}
+.dis .sec:hover{
     width: 400px;
-    height: 400px;
-    background: aquamarine;
-    position: absolute;
+    height: 200px;
+}
+.dis .sec h1{
+    margin-top: 30px;
 }

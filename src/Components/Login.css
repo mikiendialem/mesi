@@ -69,6 +69,10 @@
     margin-left: 100px;
     color: azure;
 }
+.login p a{
+    text-decoration: none;
+    color:#129fea;
+}
 i {
     transform: translatex(-120%);
     cursor: pointer;
@@ -97,6 +101,10 @@ i {
 .next{
     margin-top: 60px;
     text-align: right;
+}
+.next a{
+    text-decoration: none;
+    color:#129fea;
 }
 .def1 input{
     width: 50px;
